@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NewEdge</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#edge-services-workshop">Edge Services Workshop</a>
-<ul>
-<li><a href="#table-of-contents">Table of Contents</a></li>
-</ul>
-</li>
-<li><a href="#create-vpc-environment">Create VPC Environment</a></li>
-<li><a href="#create-the-webapp-environment">Create the Webapp Environment</a></li>
-<li><a href="#create-an-edge-to-accelerate-and-protect-your-web-app">Create an Edge to Accelerate and Protect your Web App</a>
-<ul>
-<li></li>
-</ul>
-</li>
-<li><a href="#test-original-website-behaviour">Test Original Website Behaviour</a></li>
-<li><a href="#how-cloudfront-improves-performance-and-waf-secures-your-environment">How Cloudfront improves performance and WAF secures your environment</a>
-<ul>
-<li></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="edge-services-workshop">Edge Services Workshop</h1>
+<h1 id="edge-services-workshop">Edge Services Workshop</h1>
 <p><strong>WebGoat</strong> is a deliberately insecure web application maintained by <a href="http://www.owasp.org">OWASP</a> designed to teach web application security lessons. Users must demonstrate their understanding of a security issue by exploiting a real vulnerability in the WebGoat applications. For example, in one of the lessons the user must use <a href="https://www.owasp.org/index.php/SQL_injection" title="SQL injection">SQL injection</a> to steal fake credit card numbers. The application aims to provide a realistic teaching environment, providing users with hints and code to further explain the lesson.</p>
 <p><img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/WebGoat.png" alt="enter image description here"></p>
 <p><strong>What are the characteristics of the web application (details for Cloudfront CDN and WAF configuration)?</strong></p>
@@ -403,8 +364,3 @@ X-Amz-Cf-Id: ZwCHqp0fV5A3y5HNKvqpcqDM6DX_uNTnUI9foPmmnKmx2bKVMqtM9g==
 <img src="https://raw.githubusercontent.com/jeankoay88/EdgeServicesWorkshop/master/Images/CloudWatch.png" alt="enter image description here"></li>
 </ol>
 
-    </div>
-  </div>
-</body>
-
-</html>
